@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/intro_3"
+  android:backgroundTint="@color/backgrountTint"
+  android:backgroundTintMode="src_atop">
+
+    <RelativeLayout
+      android:id="@+id/lay"
+      android:layout_width="262dp"
+      android:layout_height="575dp"
+      android:layout_centerInParent="true">
+        <TextView
+          android:id="@+id/tv2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentTop="true"
+          android:layout_marginTop="30dp"
+          android:layout_marginBottom="20dp"
+          android:text="Play"
+          android:layout_alignStart="@+id/icon"
+          android:textColor="@color/WhiteTint"
+          android:textSize="32sp" />
+
+        <ImageView
+          android:id="@+id/icon"
+          android:layout_width="221dp"
+          android:layout_height="240dp"
+          android:layout_below="@+id/tv2"
+
+          android:layout_centerHorizontal="true"
+          android:src="@drawable/img_intro3" />
+
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/icon"
+          android:id="@+id/tv3"
+          android:layout_centerHorizontal="true"
+          android:layout_marginTop="36dp"
+          android:textAlignment="center"
+          android:text="The games you love"
+          android:textColor="@color/WhiteTint"
+          android:textSize="20sp" />
+
+        <ImageButton
+          android:id="@+id/btn_next"
+          android:layout_width="54dp"
+          android:layout_height="68dp"
+          android:layout_below="@id/tv3"
+          android:layout_marginTop="65dp"
+          android:layout_centerHorizontal="true"
+          android:background="@drawable/ic_navigate_next_black_24dp" />
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
